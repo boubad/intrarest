@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\test">
+      <UniqueIdentifier>{5a5bb5c3-abdc-467f-a084-e9d4e0e3bfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\test\impl">
+      <UniqueIdentifier>{a22c219c-c406-4326-88a9-13d897dc9c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\test">
+      <UniqueIdentifier>{111b611c-f030-48ea-8d78-3de66cb9ba50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\test\impl">
+      <UniqueIdentifier>{5f3f2369-c622-4b77-9476-0f39833e34db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\impl\gtest\gtest.h">
+      <Filter>Fichiers d%27en-tête\test\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gtest\impl\gtest\gtest-all.cc">
+      <Filter>Fichiers sources\test\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTestApplication.cpp" />
+    <ClCompile Include="intrarestclienttest.cpp">
+      <Filter>Fichiers sources\test</Filter>
+    </ClCompile>
+    <ClCompile Include="datastoretest.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
